@@ -14,4 +14,4 @@ spec:
             - name: say-hi
               image: alpine
               script: |
-                echo "✅ Hello from Pipelines as Code!!"
+                echo "✅ Hello from Pipelines as Code!!!"
