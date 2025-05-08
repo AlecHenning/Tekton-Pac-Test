@@ -8,10 +8,10 @@ metadata:
 spec:
   pipelineSpec:
     tasks:
-      - name: say-hello
+      - name: echo-hello
         taskSpec:
           steps:
-            - name: echo
+            - name: say-hi
               image: alpine
               script: |
                 echo "✅ Hello from Pipelines as Code!"
